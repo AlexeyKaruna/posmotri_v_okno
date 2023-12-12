@@ -292,6 +292,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  inline-size: 200px;
 }
 
 .content__video-card-title {
@@ -313,4 +314,10 @@ ol {
   block-size: 103px;
   object-fit: cover;
   object-position: center;
+}
+
+.block {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
