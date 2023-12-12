@@ -272,7 +272,7 @@ ol {
 }
 
 .content__list {
-  overflow: auto;
+  overflow-y: auto;
   position: relative;
   block-size: 298px;
   inline-size: 399px;
