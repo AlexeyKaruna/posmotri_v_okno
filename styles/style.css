@@ -228,7 +228,7 @@ ol {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -273,9 +273,14 @@ ol {
 
 .content__list {
   overflow-y: auto;
+  overflow-x: hidden;
   position: relative;
   block-size: 298px;
   inline-size: 399px;
+}
+
+.content__list::-webkit-scrollbar {
+  display: none;
 }
 
 .content__list-item:not(:last-child) {
@@ -296,7 +301,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
