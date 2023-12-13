@@ -315,9 +315,3 @@ ol {
   object-fit: cover;
   object-position: center;
 }
-
-.block {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
